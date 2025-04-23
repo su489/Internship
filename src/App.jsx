@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div className="p-4">
-        {/* Navigation Bar */}
+      
         <nav className="bg-gray-800 p-4 rounded-md shadow-lg">
           <ul className="flex space-x-6 justify-center">
             <li>
@@ -51,7 +51,7 @@ const App = () => {
           </ul>
         </nav>
 
-        {/* Routes for different pages */}
+        
         <Routes>
           <Route path="/" element={<CourseType />} />
           <Route path="/course-manager" element={<CourseManager />} />

@@ -70,7 +70,7 @@ const StudentRegistration = () => {
         </select>
       </div>
 
-      {/* Student Name Input */}
+    
       <div className="mb-4">
         <input
           type="text"
@@ -84,7 +84,7 @@ const StudentRegistration = () => {
         </button>
       </div>
 
-      {/* Display Registered Students for Selected Course */}
+  
       {selectedCourse && (
         <div>
           <h3 className="text-lg font-bold mb-2">
